@@ -485,7 +485,7 @@ async def play(_, message: Message):
                     # print(e)
                     await lel.edit(
                         f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                        "\n\nOr manually add **@JokerMuisc** to your Group and try again</b>",
+                        "\n\nOr manually add **@Mjolnir_Dp** to your Group and try again</b>",
                     )
     try:
         await USER.get_chat(chid)
@@ -596,7 +596,7 @@ async def play(_, message: Message):
                     InlineKeyboardButton(text="❌ Close", callback_data="cls"),
                     InlineKeyboardButton(text="📡 Download 📡", url=f"{dlurl}"),
                 ],
-                [InlineKeyboardButton(text="𝑱𝕆🅚𝔼𝑹 𝑷ℝ𝑶 𝑩𝕆𝑻", url=f"https://t.me/jokersupportz")],
+                [InlineKeyboardButton(text="✯Tʜᴏʀ.RᴀGɴᴀʀᴏᴋ✯", url=f"https://t.me/Mjolnir_Dp")],
             ]
         )
         requested_by = message.from_user.first_name
@@ -689,7 +689,7 @@ async def play(_, message: Message):
                         InlineKeyboardButton(text="❌ Close", callback_data="cls"),
                         InlineKeyboardButton(text="📡 Download 📡", url=f"{dlurl}"),
                     ],
-                    [InlineKeyboardButton(text="𝑱𝕆🅚𝔼𝑹 𝑷ℝ𝑶 𝑩𝕆𝑻", url=f"https://t.me/jokersupportz")],
+                    [InlineKeyboardButton(text="✯Tʜᴏʀ.RᴀGɴᴀʀᴏᴋ✯", url=f"https://t.me/Mjolnir_Dp")],
                 ]
             )
             requested_by = message.from_user.first_name
@@ -785,7 +785,7 @@ async def ytplay(_, message: Message):
                     # print(e)
                     await lel.edit(
                         f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                        "\n\nOr manually add **@JokerMuisc** to your Group and try again</b>",
+                        "\n\nOr manually add **@Mjolnir_Dp** to your Group and try again</b>",
                     )
     try:
         await USER.get_chat(chid)
@@ -847,7 +847,7 @@ async def ytplay(_, message: Message):
                 InlineKeyboardButton(text="❌ Close", callback_data="cls"),
                 InlineKeyboardButton(text="📡 Download 📡", url=f"{dlurl}"),
             ],
-            [InlineKeyboardButton(text="𝑱𝕆🅚𝔼𝑹 𝑷ℝ𝑶 𝑩𝕆𝑻", url=f"https://t.me/jokersupportz")],
+            [InlineKeyboardButton(text="✯Tʜᴏʀ.RᴀGɴᴀʀᴏᴋ✯", url=f"https://t.me/Mjolnir_Dp")],
         ]
     )
     requested_by = message.from_user.first_name
@@ -941,7 +941,7 @@ async def deezer(client: Client, message_: Message):
                     # print(e)
                     await lel.edit(
                         f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                        "\n\nOr manually add **@JokerMuisc** to your Group and try again</b>",
+                        "\n\nOr manually add **@Mjolnir_Dp** to your Group and try again</b>",
                     )
     try:
         await USER.get_chat(chid)
@@ -987,7 +987,7 @@ async def deezer(client: Client, message_: Message):
                 InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
             ],
             [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
-            [InlineKeyboardButton(text="𝑱𝕆🅚𝔼𝑹 𝑷ℝ𝑶 𝑩𝕆𝑻", url=f"https://t.me/jokersupportz")],
+            [InlineKeyboardButton(text="✯Tʜᴏʀ.RᴀGɴᴀʀᴏᴋ✯", url=f"https://t.me/Mjolnir_Dp")],
         ]
     )
     file_path = await convert(wget.download(url))
@@ -1079,7 +1079,7 @@ async def jiosaavn(client: Client, message_: Message):
                     # print(e)
                     await lel.edit(
                         f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                        "\n\nOr manually add **@JokerMuisc** to your Group and try again</b>",
+                        "\n\nOr manually add **@Mjolnir_Dp** to your Group and try again</b>",
                     )
     try:
         await USER.get_chat(chid)
@@ -1124,7 +1124,7 @@ async def jiosaavn(client: Client, message_: Message):
             ],
             [
                 InlineKeyboardButton(
-                    text="𝑱𝕆🅚𝔼𝑹 𝑷ℝ𝑶 𝑩𝕆𝑻", url=f"https://t.me/jokersupportz"
+                    text="✯Tʜᴏʀ.RᴀGɴᴀʀᴏᴋ✯", url=f"https://t.me/Mjolnir_Dp"
                 )
             ],
             [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
@@ -1235,7 +1235,7 @@ async def lol_cb(b, cb):
                 InlineKeyboardButton(text="❌ Close", callback_data="cls"),
                 InlineKeyboardButton(text="📡 Download 📡", url=f"{dlurl}"),
             ],
-            [InlineKeyboardButton(text="𝑱𝕆🅚𝔼𝑹 𝑷ℝ𝑶 𝑩𝕆𝑻", url=f"https://t.me/jokersupportz")],
+            [InlineKeyboardButton(text="✯Tʜᴏʀ.RᴀGɴᴀʀᴏᴋ✯", url=f"https://t.me/Mjolnir_Dp")],
         ]
     )
     requested_by = useer_name
@@ -1277,7 +1277,7 @@ async def lol_cb(b, cb):
         await b.send_photo(chat_id,
             photo="final.png",
             reply_markup=keyboard,
-            caption=f"▶️ <b>Playing</b> here the song requested by {r_by.mention} via **@Joker_ProRobot**",
+            caption=f"▶️ <b>Playing</b> here the song requested by {r_by.mention} via **@Mjolnir_Dp*",
         )
         
         os.remove("final.png")
