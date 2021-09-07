@@ -38,15 +38,15 @@ def _start(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Add Me To Your Group 🙋‍♀️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
+                        "Add Me", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
                 [
                     InlineKeyboardButton(
-                        "⚙️ My Updates Channel ⚙️", url=f"https://t.me/{UPDATES_CHANNEL}"), 
+                        "✔️Entertainment💢", url=f"https://t.me/{UPDATES_CHANNEL}"), 
                     InlineKeyboardButton(
-                        "🪓 Support Group 🪓", url=f"https://t.me/{SUPPORT_GROUP}")
+                        "🎊Status Channel💥", url=f"https://t.me/{SUPPORT_GROUP}")
                 ],[
                     InlineKeyboardButton(
-                        "🙋🏻 Devoloper", url=f"https://t.me/Abt_Meh")
+                        "😌Developer🙂", url=f"https://t.me/Mjolnir_Dp")
                 ]
             ]
         ),
@@ -61,7 +61,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🪓 Support Group 🪓", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "🎊Status Channel💥", url=f"https://t.me/{SUPPORT_GROUP}"
                     )
                 ]
             ]
@@ -101,10 +101,10 @@ def map(pos):
     elif(pos==len(tr.HELP_MSG)-1):
         url = f"https://t.me/{SUPPORT_GROUP}"
         button = [
-            [InlineKeyboardButton("➕ Add me to your Group 🙋‍♀️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-            [InlineKeyboardButton(text = '⚙️ My Updates Channel ⚙️', url=f"https://t.me/{UPDATES_CHANNEL}"),
-             InlineKeyboardButton(text = '🪓 Support Group 🪓', url=f"https://t.me/{SUPPORT_GROUP}")],
-            [InlineKeyboardButton(text = '🙋🏻 Devoloper', url=f"https://t.me/Abt_Me")],
+            [InlineKeyboardButton("Add me", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
+            [InlineKeyboardButton(text = '✔️Entertainment 💢', url=f"https://t.me/{UPDATES_CHANNEL}"),
+             InlineKeyboardButton(text = '🎊Status Channel 💥', url=f"https://t.me/{SUPPORT_GROUP}")],
+            [InlineKeyboardButton(text = '😌Developer🙂', url=f"https://t.me/Mjolnir_Dp")],
             [InlineKeyboardButton(text = 'Prev <--', callback_data = f"help+{pos-1}")]
         ]
     else:
