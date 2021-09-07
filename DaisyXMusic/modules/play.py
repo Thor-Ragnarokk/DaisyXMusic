@@ -540,7 +540,7 @@ async def play(_, message: Message):
         )
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/f6086f8909fbfeb0844f2.png"
+        thumb_name = "https://telegra.ph/file/c00bf05f585227e129052.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -728,7 +728,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="▶️ <b>Playing</b> here the song requested by {} via **@Joker_ProRobot**".format(
+            caption="▶️ <b>Playing</b> here the song requested by {} 🎧".format(
                 message.from_user.mention()
             ),
         )
@@ -886,7 +886,7 @@ async def ytplay(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="▶️ <b>Playing</b> here the song requested by {} via **@Joker_ProRobot**".format(
+            caption="▶️ <b>Playing</b> here the song requested by {} 🎧".format(
                 message.from_user.mention()
             ),
         )
@@ -967,7 +967,7 @@ async def deezer(client: Client, message_: Message):
         url = songs.result[0].url
         artist = songs.result[0].artist
         duration = songs.result[0].duration
-        thumbnail = "https://telegra.ph/file/f6086f8909fbfeb0844f2.png"
+        thumbnail = "https://telegra.ph/file/c00bf05f585227e129052.jpg"
 
     except:
         await res.edit("Found Literally Nothing, You Should Work On Your English!")
@@ -1277,7 +1277,7 @@ async def lol_cb(b, cb):
         await b.send_photo(chat_id,
             photo="final.png",
             reply_markup=keyboard,
-            caption=f"▶️ <b>Playing</b> here the song requested by {r_by.mention} via **@Mjolnir_Dp*",
+            caption=f"▶️ <b>Playing</b> here the song requested by {r_by.mention} via ",
         )
         
         os.remove("final.png")
